@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "590896762633",
+    "firebase_url": "https://rivernote-e244b.firebaseio.com",
+    "project_id": "rivernote-e244b",
+    "storage_bucket": "rivernote-e244b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590896762633:android:3d84ee3e2f6d8b5f",
+        "android_client_info": {
+          "package_name": "birisicorp.rivernote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590896762633-6qp24s385mkakrh89a6aqes8o29qeruv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "birisicorp.rivernote",
+            "certificate_hash": "2c7529f6cb7fc213a347484287f3458c262ee132"
+          }
+        },
+        {
+          "client_id": "590896762633-45f8ua4631qr6dhg53jt7biqtl4nrjoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDap7Zr939jW5n5JoyXeZ8LImz0qqlwF58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590896762633-45f8ua4631qr6dhg53jt7biqtl4nrjoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

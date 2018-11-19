@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/shape"
+    android:layout_margin="1dp"
+    android:id="@+id/customView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/customView_container"
+        android:background="@color/colorAccent"
+        android:layout_margin="3dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@color/colorPrimary"
+            android:id="@+id/customView_image"/>
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:id="@+id/customView_texts">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="There is a title in here"
+                android:textSize="18sp"
+                android:id="@+id/customView_title"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="12sp"
+                android:text="There is a description in here. But it's going to be long"
+                android:id="@+id/customView_desc"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:id="@+id/customView_buttons">
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_edit"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/customView_edit"/>
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_delete"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/customView_delete"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
